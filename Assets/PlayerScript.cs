@@ -8,8 +8,12 @@ public class PlayerScript : MonoBehaviour
     public Vector2 speed = new Vector2(1, 1);
     
     private Vector3 position;
+    private float startTouchPosition;
+    private float endTouchPosition;
     private float width;
     private float height;
+
+    public Animator animator;
     
     void Awake() {
         width = (float)Screen.width / 2.0f;
@@ -34,43 +38,60 @@ public class PlayerScript : MonoBehaviour
     {
         
     }
+    
+    
 
     // Update is called once per frame
     void Update()
     {
-         // Handle screen touches.
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
+
+    }
+
+    private IEnumerator jumpAnimation()
+    {
         
-            // Move the cube if the screen has the finger moving.
-                if (touch.phase == TouchPhase.Moved) {
-                    Vector2 pos = touch.position;
-                    pos.x = (pos.x - width) / width;
-                    pos.y = (pos.y - height) / height;
-                    position = new Vector3(-pos.x, pos.y, 0.0f);
+        for (int i = 0; i < 10; i++)
+        {
+            transform.Translate(0, 0.3f, 0);
+            yield return null;
+        }
+    }
+    private IEnumerator moveAnimation(int direction)
+    {
+        float step = 0.3f;
+        switch (direction)
+        {
+            case 0:
+                step = step;
+                break;
+            case 1:
+                step = -step;
+                break;
+        }
+        
+        for (int i = 0; i < 10; i++)
+        {
+            transform.Translate(step, 0, 0);
+            yield return null;
+        }
+    }
+    
+    public void jump()
+    {
+        StartCoroutine(jumpAnimation());
+        animator.SetTrigger("onJump");        
+    }
 
-                    // Position the cube.
-                    transform.position = position;
-                }
-
-                if (Input.touchCount == 2)
-                {
-                    touch = Input.GetTouch(1);
-
-                    if (touch.phase == TouchPhase.Began)
-                    {
-                        // Halve the size of the cube.
-                        transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
-                    }
-
-                    if (touch.phase == TouchPhase.Ended)
-                    {
-                        // Restore the regular size of the cube.
-                        transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-                    }
-                }
-            
-            }
+    public void moveLeft()
+    {
+        StartCoroutine(moveAnimation(0));
+        animator.SetTrigger("onMove");
+        transform.rotation = Quaternion.Euler(0,0,0);
+    }
+    public void moveRight()
+    {
+        StartCoroutine(moveAnimation(1));
+        animator.SetTrigger("onMove"); 
+        transform.rotation = Quaternion.Euler(0,0,0);
     }
 }
