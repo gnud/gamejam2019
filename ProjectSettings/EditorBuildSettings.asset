@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/mysexyscene.unity
     guid: 989fe7bbed84126b9af2467a78eb7fe1
+  - enabled: 1
+    path: Assets/2D Speed Snail/Assets/Scenes/Example_Scene.unity
+    guid: 1be90515700b237439c82bd3c7f91c72
   m_configObjects: {}
