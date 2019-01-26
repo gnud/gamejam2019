@@ -10,7 +10,10 @@ public class PlayerScript : MonoBehaviour
     public Animator animator;
     public SpriteRenderer renderer;
     public Text scoreVal;
+    public Slider slider;
+
     private float timer;
+    private int times;
 
     #region events
 
@@ -18,12 +21,24 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         score = 0;
+        times = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         timeScore();
+
+        if (times <= 5)
+        {
+            slider.value = times;
+        }
+        
+        if (times == 5)
+        {
+            animator.SetBool("isNaked", true);
+            
+        }
     }
 
     #endregion
@@ -41,6 +56,8 @@ public class PlayerScript : MonoBehaviour
 
             //Reset the timer to 0.
             timer = 0;
+
+            times += 1;
         }
     }
 

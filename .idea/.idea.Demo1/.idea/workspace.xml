@@ -2,20 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d81d11d-a48f-4623-8688-91cffbfb9449" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo1/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/Controller/IDLE_Snail_NUDE.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/Controller/IDLE_Snail_NUDE.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/IDLE_Snail_nude.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/IDLE_Snail_nude.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0010.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0020.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0030.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0040.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0050.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0060.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0070.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0070.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0080.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0090.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0090.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0100.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0110.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0120.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0130.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0140.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0150.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/DEATH_NUDE/DEATH_Snail_0160.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0000.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0010.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0020.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0030.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0040.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0050.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0060.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0070.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0070.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/IDLE_NUDE/IDLE_Snail_0080.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0000.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0010.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0020.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0030.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0040.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0050.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0060.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0070.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0070.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Sprites/MOVE_NUDE/MOVE_Snail_0080.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Render Texture.renderTexture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/New Render Texture.renderTexture.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UseShell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UseShell.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/progress.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/shell-2479830_640.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/shell-2479830_640.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/shell-2479830_640.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/shell-2479830_640.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/shell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/shell.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ideas.md.kate-swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/JUMPend_Snail.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/JUMPend_Snail.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/IDLE_Snail.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/IDLE_Snail.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/Snail_Anim.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Animations/Snail_Anim.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Scenes/Example_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Speed Snail/Assets/Scenes/Example_Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/infinite_round.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/infinite_round.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ideas.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,37 +107,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="810">
+              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               <folding>
-                <marker date="1548512927613" expanded="false" signature="6:100" ph="..." />
-                <marker date="1548512927613" expanded="true" signature="144:2048" ph="{...}" />
-                <marker date="1548512927613" expanded="false" signature="296:519" ph="events" />
-                <marker date="1548512927613" expanded="true" signature="381:412" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="470:503" ph="{...}" />
-                <marker date="1548512927613" expanded="false" signature="525:791" ph="helpers" />
-                <marker date="1548512927613" expanded="true" signature="562:775" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="627:769" ph="{...}" />
-                <marker date="1548512927613" expanded="false" signature="797:1452" ph="Animations" />
-                <marker date="1548512927613" expanded="true" signature="856:1010" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="908:1004" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="1063:1436" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="1123:1288" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="1334:1430" ph="{...}" />
-                <marker date="1548512927613" expanded="false" signature="1458:2046" ph="Joystick" />
-                <marker date="1548512927613" expanded="true" signature="1502:1610" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="1646:1848" ph="{...}" />
-                <marker date="1548512927613" expanded="true" signature="1885:2030" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="6:100" ph="..." />
+                <marker date="1548524378381" expanded="true" signature="144:2334" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="346:780" ph="events" />
+                <marker date="1548524378381" expanded="true" signature="431:481" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="539:764" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="678:758" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="786:1077" ph="helpers" />
+                <marker date="1548524378381" expanded="true" signature="823:1061" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="888:1055" ph="{...}" />
+                <marker date="1548524378381" expanded="false" signature="1083:1738" ph="Animations" />
+                <marker date="1548524378381" expanded="true" signature="1142:1296" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="1194:1290" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="1349:1722" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="1409:1574" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="1620:1716" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="1744:2332" ph="Joystick" />
+                <marker date="1548524378381" expanded="true" signature="1788:1896" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="1932:2134" ph="{...}" />
+                <marker date="1548524378381" expanded="true" signature="2171:2316" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/Assets/UseShell.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -73,23 +153,24 @@
       <find>height</find>
       <find>position</find>
       <find>speed</find>
+      <find>slider</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/UseShell.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RepeatScript.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BGSccrolScript.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/BGSccrolScript.cs" />
         <option value="$PROJECT_DIR$/Assets/RepeatScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerScript.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/PlayerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/UseShell.cs" />
       </list>
     </option>
   </component>
@@ -120,24 +201,6 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
-              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
-              <item name="JetBrains" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Robot Shooting Game" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -162,6 +225,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
   </component>
   <component name="RunDashboard">
@@ -186,7 +250,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548444228971</updated>
-      <workItem from="1548444230661" duration="16913000" />
+      <workItem from="1548444230661" duration="24704000" />
     </task>
     <task id="LOCAL-00001" summary="Code updates">
       <created>1548508521816</created>
@@ -195,11 +259,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548508521816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update&#10;- Time based score&#10;- Code refactor&#10;- Jump, move left and right&#10;- Virtual joystick buttons">
+      <created>1548513423929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548513423929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Editor updates">
+      <created>1548513445275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548513445275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16913000" />
+    <option name="totallyTimeSpent" value="24704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -212,7 +290,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
@@ -285,7 +362,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code updates" />
+    <MESSAGE value="Update&#10;- Time based score&#10;- Code refactor&#10;- Jump, move left and right&#10;- Virtual joystick buttons" />
+    <MESSAGE value="Editor updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editor updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -301,53 +380,17 @@
     <entry file="file://$PROJECT_DIR$/Assets/Robot Shooting Game/BGSccrolScript.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/BGSccrolScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/RepeatScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="196">
           <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <marker date="1548497626730" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548497626730" expanded="true" signature="121:1447" ph="{...}" />
-            <marker date="1548497626730" expanded="true" signature="503:699" ph="{...}" />
-            <marker date="1548497626730" expanded="true" signature="757:962" ph="{...}" />
-            <marker date="1548497626730" expanded="true" signature="837:956" ph="{...}" />
-            <marker date="1548497626730" expanded="true" signature="995:1155" ph="{...}" />
-            <marker date="1548497626730" expanded="true" signature="1236:1445" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PlayerScript.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/BGSccrolScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <marker date="1548512927613" expanded="false" signature="6:100" ph="..." />
-            <marker date="1548512927613" expanded="true" signature="144:2048" ph="{...}" />
-            <marker date="1548512927613" expanded="false" signature="296:519" ph="events" />
-            <marker date="1548512927613" expanded="true" signature="381:412" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="470:503" ph="{...}" />
-            <marker date="1548512927613" expanded="false" signature="525:791" ph="helpers" />
-            <marker date="1548512927613" expanded="true" signature="562:775" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="627:769" ph="{...}" />
-            <marker date="1548512927613" expanded="false" signature="797:1452" ph="Animations" />
-            <marker date="1548512927613" expanded="true" signature="856:1010" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="908:1004" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="1063:1436" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="1123:1288" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="1334:1430" ph="{...}" />
-            <marker date="1548512927613" expanded="false" signature="1458:2046" ph="Joystick" />
-            <marker date="1548512927613" expanded="true" signature="1502:1610" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="1646:1848" ph="{...}" />
-            <marker date="1548512927613" expanded="true" signature="1885:2030" ph="{...}" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -355,6 +398,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PlayerScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          <folding>
+            <marker date="1548524378381" expanded="true" signature="6:100" ph="..." />
+            <marker date="1548524378381" expanded="true" signature="144:2334" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="346:780" ph="events" />
+            <marker date="1548524378381" expanded="true" signature="431:481" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="539:764" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="678:758" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="786:1077" ph="helpers" />
+            <marker date="1548524378381" expanded="true" signature="823:1061" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="888:1055" ph="{...}" />
+            <marker date="1548524378381" expanded="false" signature="1083:1738" ph="Animations" />
+            <marker date="1548524378381" expanded="true" signature="1142:1296" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="1194:1290" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="1349:1722" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="1409:1574" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="1620:1716" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="1744:2332" ph="Joystick" />
+            <marker date="1548524378381" expanded="true" signature="1788:1896" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="1932:2134" ph="{...}" />
+            <marker date="1548524378381" expanded="true" signature="2171:2316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UseShell.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
