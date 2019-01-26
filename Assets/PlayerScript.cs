@@ -1,51 +1,52 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; 
 
 public class PlayerScript : MonoBehaviour
-{
-
-    public Vector2 speed = new Vector2(1, 1);
-    
-    private Vector3 position;
-    private float startTouchPosition;
-    private float endTouchPosition;
-    private float width;
-    private float height;
+{   
+    private int score;
 
     public Animator animator;
-    
-    void Awake() {
-        width = (float)Screen.width / 2.0f;
-        height = (float)Screen.height / 2.0f;
+    public SpriteRenderer renderer;
+    public Text scoreVal;
+    private float timer;
 
-        // Position used for the cube.
-        position = new Vector3(0.0f, 0.0f, 0.0f);
-    }
+    #region events
 
-        void OnGUI()
-    {
-        // Compute a fontSize based on the size of the screen width.
-        GUI.skin.label.fontSize = (int)(Screen.width / 25.0f);
-
-        GUI.Label(new Rect(20, 20, width, height * 0.25f),
-            "x = " + position.x.ToString("f2") +
-            ", y = " + position.y.ToString("f2"));
-    }
-    
     // Start is called before the first frame update
     void Start()
     {
-        
+        score = 0;
     }
-    
-    
 
     // Update is called once per frame
     void Update()
     {
-
+        timeScore();
     }
+
+    #endregion
+
+    #region helpers
+
+    void timeScore()
+    {
+        timer += Time.deltaTime;
+
+        if (timer > 5f) {
+
+            score += 5;
+            scoreVal.text = score.ToString();
+
+            //Reset the timer to 0.
+            timer = 0;
+        }
+    }
+
+    #endregion
+
+    #region Animations
 
     private IEnumerator jumpAnimation()
     {
@@ -75,23 +76,31 @@ public class PlayerScript : MonoBehaviour
             yield return null;
         }
     }
-    
-    public void jump()
-    {
-        StartCoroutine(jumpAnimation());
-        animator.SetTrigger("onJump");        
-    }
 
-    public void moveLeft()
-    {
-        StartCoroutine(moveAnimation(0));
-        animator.SetTrigger("onMove");
-        transform.rotation = Quaternion.Euler(0,0,0);
-    }
-    public void moveRight()
-    {
-        StartCoroutine(moveAnimation(1));
-        animator.SetTrigger("onMove"); 
-        transform.rotation = Quaternion.Euler(0,0,0);
-    }
+    #endregion
+
+    #region Joystick
+
+        public void jump()
+        {
+            StartCoroutine(jumpAnimation());
+            animator.SetTrigger("onJump");
+        }
+    
+        public void moveLeft()
+        {
+            StartCoroutine(moveAnimation(0));
+            animator.SetTrigger("onMove");
+            transform.rotation = Quaternion.Euler(0,0,0);
+            renderer.flipX = true;
+        }
+    
+        public void moveRight()
+        {
+            StartCoroutine(moveAnimation(1));
+            animator.SetTrigger("onMove");
+            renderer.flipX = false;
+        }
+
+    #endregion
 }
