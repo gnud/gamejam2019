@@ -12,11 +12,6 @@ public class PlayerOld : MonoBehaviour {
 
 
 	float movement = 0f;
-	float maxX = 2.5f;
-	float minX = -2.5f;
-
-	bool isLeftEnabled = true ,isRightEnabled = true;
-
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
@@ -30,14 +25,14 @@ public class PlayerOld : MonoBehaviour {
 
 	void movePlayer(){
 			if(Input.GetKey("a")){
-				if(isLeftEnabled){
+				if (transform.position.x >= -2.5f){
        			transform.Translate(new Vector3(-1, 0, 0) * Time.deltaTime * 5);	
 				}
 			}
 
 			if(Input.GetKey("d")){
 				
-				if(isRightEnabled){
+				if (transform.position.x <= 2.5f){
        			transform.Translate(new Vector3(1, 0, 0) * Time.deltaTime * 5);
 				}
 			}
